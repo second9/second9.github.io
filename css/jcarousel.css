@@ -22,10 +22,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .dark-blue {
 	background-color: rgb(15,117,188);
+	color: #fff;
 }
 
 .light-blue {
 	background-color: rgb(0, 174, 239);
+	color: #fff;
+}
+
+.jcarousel > .dark-blue,.light-blue  a {
+	text-decoration: none;
+    color: yellow;
+}
+
+.jcarousel > .dark-blue,.light-blue  a:hover {
+	text-decoration: underline;
 }
 
 .jcarousel-wrapper {
